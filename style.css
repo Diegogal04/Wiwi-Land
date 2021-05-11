@@ -212,3 +212,38 @@ header {
 .about-note {
     font-size: 25px;
 }
+
+/* #### CREATOR #### */
+.creator {
+    height: 800px;
+}
+
+.creator-title {
+    text-align: center;
+    font-size: 45px;
+    margin: 20px;
+}
+
+.creator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cre-highlight {
+    display: inline;
+    font-style: normal;
+    background-image: linear-gradient(0deg,#fe7474 15%,transparent 0);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.img-creator {
+    margin: 30px;
+}
+
+.p-creator {
+    width: 750px;
+    font-size: 23px;
+    text-align: center;
+}
