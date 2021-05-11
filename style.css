@@ -48,7 +48,7 @@ header {
     color: #ffbfbf;
 }
 
-button {
+.signup-btn {
     padding: 10px 25px;
     color: #fd6160;
     background-color: white;
@@ -56,10 +56,24 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-
 }
 
-button:hover {
+.login-btn {
+    padding: 10px 25px;
+    color: white;
+    background-color: #fd6160;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.signup-btn:hover {
     background-color: #faa3a3;
     color: #fcf1f1;
+}
+
+.login-btn:hover {
+    background-color: #ffbfbf;
+    color: #fd6160;
 }
