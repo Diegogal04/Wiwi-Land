@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+body {
+font-family: 'Montserrat', sans-serif;
+}
 /* #### NAV-BAR #### */
 
 li, a, button {
@@ -79,3 +82,75 @@ header {
 }
 
 /* #### HOME #### */
+.home {
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.home-intro {
+    width: 550px;
+    height: 650px;
+    padding: 100px 35px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.higlight {
+    display: inline;
+    font-style: normal;
+    background-image: linear-gradient(0deg,#fe7474 83%,transparent 0);
+    margin-right: 1px;
+}
+
+.homeintro-img {
+    width: 650px;
+    height: 550px;
+}
+
+.introphoto-home {
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.btngroup-home {
+    margin-top: 6rem;
+}
+
+.wiwi-btn {
+    padding: 10px 25px;
+    color: #fd6160;
+    background-color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 2px solid #fd6160;
+}
+
+.wawito-btn {
+    padding: 10px 25px;
+    color: #fd6160;
+    background-color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 2px solid #fd6160;
+}
+
+.wiwi-btn:hover {
+    background-color:  #fd6160;
+    color: white;
+}
+
+.wawito-btn:hover {
+    background-color:  #fd6160;
+    color: white;
+}
