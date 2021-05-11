@@ -154,3 +154,61 @@ header {
     background-color:  #fd6160;
     color: white;
 }
+
+/* #### ABOUT #### */
+
+.about {
+    height: 800px; 
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-tt {
+    text-align: center;
+    font-size: 45px;
+}
+
+.about-info {
+    width: 550px;
+    height: 650px;
+    padding: 100px 35px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.imginfo-about {
+    width: 750px;
+    height: 450px;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.higlight-about {
+    display: inline;
+    font-style: normal;
+    background-image: linear-gradient(0deg,#fe7474 83%,transparent 0);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.higlight-about-tt {
+    display: inline;
+    font-style: normal;
+    background-image: linear-gradient(0deg,#fe7474 15%,transparent 0);
+    padding-right: 20px;
+    padding-left: 20px; 
+}
+
+.about-note {
+    font-size: 25px;
+}
