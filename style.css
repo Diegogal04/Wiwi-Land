@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,22 +8,58 @@
 
 /* #### NAV-BAR #### */
 
-.nav-logo {
-    width: 240px;
-    height: 70px;
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
 }
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #fd6160;
 }
 
-.nav-menu {
-    display: flex;
+
+.nav-logo {
+    width: 240px;
+    height: 60px;
+    cursor: pointer;
 }
 
-li {
-    margin: 13px;
-    text-decoration: none;
+.nav-links {
     list-style: none;
+}
+
+.nav-links, li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links, li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links, li a:hover {
+    color: #ffbfbf;
+}
+
+button {
+    padding: 10px 25px;
+    color: #fd6160;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color: #faa3a3;
+    color: #fcf1f1;
 }
