@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 30px 10%;
     background-color: #fd6160;
 }
@@ -49,6 +50,15 @@ header {
 
 .nav-links, li a:hover {
     color: #ffbfbf;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
 }
 
 .signup-btn {
@@ -80,6 +90,9 @@ header {
     background-color: #ffbfbf;
     color: #fd6160;
 }
+
+
+
 
 /* #### HOME #### */
 .home {
@@ -318,4 +331,48 @@ form {
 .contactsub-btn:hover {
     background-color:  #fd6160;
     color: white;
+}
+
+
+/* #### MEDIA QUERIES #### */
+
+@media screen and (max-width: 400px) {
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-links.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .hamburger {
+        display: block;
+        font-size: 50px;
+    }
+
+    .signup-btn{
+        display: none;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .home-intro {
+        height: 450px;
+        font-size: 30px;
+    }
+
+    .homeintro-img {
+        width: 550px;
+        height: 400px;
+        margin-bottom: 3rem;
+    }
+
+    .about-tt {
+        margin-top: 7rem;
+    }
 }
