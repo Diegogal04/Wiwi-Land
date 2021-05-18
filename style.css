@@ -213,6 +213,10 @@ header {
     font-size: 25px;
 }
 
+.swipe-img {
+    border-radius: 23px;
+}
+
 /* #### CREATOR #### */
 .creator {
     height: 800px;
